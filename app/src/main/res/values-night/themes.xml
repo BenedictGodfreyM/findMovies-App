@@ -1,7 +1,38 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.FindMovies" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Base.Theme.FindMovies" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary Brand Color. -->
+        <item name="colorPrimary">@color/MexicanRed</item>
+        <item name="colorPrimaryVariant">@color/SalamiSlice</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary Brand Color. -->
+        <item name="colorSecondary">@color/BlackChasm</item>
+        <item name="colorSecondaryVariant">@color/DeepVelvet</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status Bar Color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.Theme.FindMovies">
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="android:divider">@color/DazzleMe</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="ScreenBackground">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="CardBackground">
+        <item name="android:background">@color/MissouriMud</item>
+    </style>
+
+    <style name="TextColor">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SubTextColor">
+        <item name="android:textColor">@color/LightGrey</item>
     </style>
 </resources>

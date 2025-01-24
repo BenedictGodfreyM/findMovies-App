@@ -1,9 +1,38 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.FindMovies" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.FindMovies" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary Brand Color. -->
+        <item name="colorPrimary">@color/MexicanRed</item>
+        <item name="colorPrimaryVariant">@color/SalamiSlice</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary Brand Color. -->
+        <item name="colorSecondary">@color/BlackChasm</item>
+        <item name="colorSecondaryVariant">@color/DeepVelvet</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status Bar Color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 
-    <style name="Theme.FindMovies" parent="Base.Theme.FindMovies" />
+    <style name="AppTheme" parent="Base.Theme.FindMovies">
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="android:divider">@color/MissouriMud</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="ScreenBackground">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="CardBackground">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="TextColor">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SubTextColor">
+        <item name="android:textColor">@color/BlackChasm</item>
+    </style>
 </resources>
